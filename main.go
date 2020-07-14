@@ -85,7 +85,7 @@ func uploadHandler(w http.ResponseWriter, r *http.Request) {
 	fmt.Println(string(stdout))
 	defer os.Remove(tempFile.Name())
 
-	baseURL := "localhost:8080/"
+	baseURL := "https://sensationnel-fromage-76396.herokuapp.com/"
 	baseURL = fmt.Sprintf("%s%s", baseURL, outputFilePath)
 	// fmt.Fprintf(w, "Successfully Uploaded File!\n")
 	w.Header().Set("Content-Type", "application/json")
