@@ -1,1 +1,1 @@
-web: main
+web: BUIDL_LABS_HIRING_TEST
