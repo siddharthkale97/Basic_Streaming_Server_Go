@@ -89,10 +89,19 @@ Example --
 
 # Demo
 
-Demo of this project is uploaded [here](www.link.here), Ops its currently unavailable!!
+Demo of this project is uploaded [here](https://sensationnel-fromage-76396.herokuapp.com/media/upload-836471673.m3u8), This link should open a m3u8 file, if requested using Get request through Postman or through a webbrowser
+
+Goto Use the following links for accessing the demo
+```sh
+https://sensationnel-fromage-76396.herokuapp.com/media/upload-836471673.m3u8
+
+https://sensationnel-fromage-76396.herokuapp.com/upload
+
+```
+Use the upload link through curl or Postman only, as it only supports POST requests!
 
 # Demo Video Link
 
-A video link giving demo will be uploaded shortly!!
+Click [Here](https://youtu.be/ZVo7cW7PO6s) to View the Demo Video, Please watch it on a higher resolution screen with high enough diagonal length in 1080p. Else the video resolution wont be clear enough to understand.
 
 ## To read the though process behind this project, open ThoughtProcess.md file
