@@ -6,7 +6,7 @@ This is a Basic Video Streaming Server created in GO
 
 I have created a basic streaming server using GO and ffmpeg. This server host m3u8 files which are streamed on demand by using the API. Users also have the option to upload and stream their video files on demand as well. Currently the server is only supporting m4 files for upload. 
 
-*Note-* To read the though process behind this project, open ThoughtProcess.MD file
+*Note-* To read the though process behind this project, open ThoughtProcess.md file
 
 # Installation and Setup --
 
@@ -43,7 +43,7 @@ The File can be streamed on demand, that's why we have created this API, if you 
 
 * Open VLC player and click on Media.
 * In the Dropdown menu click on Open Network Stream.
-* A dialouge box will appear where you will find an input filed to enter a URL.
+* A dialouge box will appear where you will find an input field to enter a URL.
 * Paste the URL of the file you want to stream or for testing paste the below URL 
     `localhost:8080/media/upload-009132623.m3u8`
 * Click on Play, the stream should start in few seconds...
@@ -57,9 +57,9 @@ To upload your own videos to the server, you will need a mp4 file with size of l
 * Use curl or Postman to upload the file to the server, I will demonstrate how to do it with Postman
 * Create a New Request in Postman app.
 * Set the Method to POST
-* Enter the following URL in the Input Filed titled *Enter request url* 
+* Enter the following URL in the Input Field titled *Enter request url* 
     `http://127.0.0.1:8080/upload`
-* Below this input filed you will find a button named body.
+* Below this input field you will find a button named body.
 * Click on that button, and check form data
 * In the key add myFile, hovering over the key myFile will present you with a dropdown expander with a sort of downward facing arrow
 * Expand the dropdown menu and select file
@@ -95,4 +95,4 @@ Demo of this project is uploaded [here](www.link.here), Ops its currently unavai
 
 A video link giving demo will be uploaded shortly!!
 
-## To read the though process behind this project, open ThoughtProcess.MD file
+## To read the though process behind this project, open ThoughtProcess.md file
