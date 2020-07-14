@@ -23,7 +23,10 @@ type UploadResponse struct {
 func main() {
 	// configure the songs directory name and port
 	const mediaDir = "media"
-	const port = 8080
+	port := os.Getenv("PORT")
+	if port == "" {
+		port = "8080"
+	}
 
 	router := mux.NewRouter()
 	HomeFolder := "media"
