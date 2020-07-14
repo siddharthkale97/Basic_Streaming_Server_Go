@@ -1,0 +1,12 @@
+{
+	"ImportPath": "BUIDL_LABS_HIRING_TEST",
+	"GoVersion": "go1.14",
+	"GodepVersion": "v80",
+	"Deps": [
+		{
+			"ImportPath": "github.com/gorilla/mux",
+			"Comment": "v1.7.4-2-g98cb6bf",
+			"Rev": "98cb6bf42e086f6af920b965c38cacc07402d51b"
+		}
+	]
+}
