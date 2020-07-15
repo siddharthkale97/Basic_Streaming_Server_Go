@@ -93,7 +93,7 @@ Demo of this project is uploaded [here](https://sensationnel-fromage-76396.herok
 
 Please be patient, as this project is hosted on Heroku, the server gets idle after few minutes of inactivity. Please give it a little time to be awake again. And this service is a little bit slow as I have used free tier of Heroku, please be patient, if some thing is broken you will be presented with an error.
 
-Goto Use the following links for accessing the demo
+Go to the following links for accessing the demo
 ```sh
 https://sensationnel-fromage-76396.herokuapp.com/media/upload-836471673.m3u8
 
